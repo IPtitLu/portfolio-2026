@@ -1,16 +1,16 @@
-'use client';
+import { PageWrapper } from '@/components/ui/PageWrapper'
 import { Hero } from '@/components/sections/Hero'
-import { About } from '@/components/sections/About'
 import { Projects } from '@/components/sections/Projects'
 import { Contact } from '@/components/sections/Contact'
+import { Parcours } from '@/components/sections/Career'
 
 export default function Home() {
   return (
-    <main>
+    <PageWrapper>
       <Hero />
-      <About />
       <Projects />
+      <Parcours />
       <Contact />
-    </main>
-  );
+    </PageWrapper>
+  )
 }
