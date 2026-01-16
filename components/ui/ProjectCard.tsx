@@ -9,8 +9,6 @@ interface ProjectCardProps {
   description: string
   images: string[]
   tech: string[]
-  href: string
-  active: boolean
 }
 
 export function ProjectCard({

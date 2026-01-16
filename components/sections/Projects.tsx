@@ -29,13 +29,12 @@ const projects = [
     images: ['/portfolio-2023.png'],
     tech: ['React', 'Tailwind', 'Vercel'],
   },
-  ,
   {
     title: 'Carpool',
     description: 'Plateforme de mise en relation pour des services de transport premium à faible impact environnemental, avec une flotte de véhicules écoresponsables.',
     images: ['/carpool-2.png'],
     tech: ['React', 'Tailwind', 'Vercel'],
-  },
+  }
 ]
 
 export function Projects() {
