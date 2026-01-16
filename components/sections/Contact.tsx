@@ -2,7 +2,7 @@ import { Reveal } from "../ui/Reveal";
 
 export function Contact() {
   return (
-    <section className="py-32">
+    <section className="pb-20">
       <div className="max-w-xl mx-auto px-6 text-center">
         <Reveal>
           <h2 className="text-3xl font-semibold">Contact</h2>
