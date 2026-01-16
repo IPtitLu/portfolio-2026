@@ -4,7 +4,7 @@ import { Reveal } from '@/components/ui/Reveal'
 
 export function Parcours() {
   return (
-    <section id="parcours" className="py-32 bg-neutral-100">
+    <section id="parcours" className="pt-20 pb-20 bg-neutral-100">
       <div className="max-w-4xl mx-auto px-6">
         
         <Reveal>
